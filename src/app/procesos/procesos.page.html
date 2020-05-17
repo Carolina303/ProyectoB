@@ -1,9 +1,28 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Procesos</ion-title>
+    <ion-title> Nuestros Procesos </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+<!-- Boton para regresar -->
+<ion-button routerLink='/home'> 
+<ion-icon name="home-outline"></ion-icon> 
+Regreso a Home
+</ion-button>
 
+<!-- ion-cards con el proceso -->
+  <ion-grid>
+  <ion-row size = 6>
+    <ion-col *ngFor="let item of items">
+      <ion-card >
+        <ion-card-content>
+          <ion-title>{{item.ID}}</ion-title>
+          <ion-img src="{{item.Source}}"></ion-img>
+          <ion-label>{{item.Text}}</ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
 </ion-content>
