@@ -1,15 +1,17 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Nuestros Procesos </ion-title>
+    <ion-buttons slot="start">
+      <ion-button routerLink='/home'>
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">
+      Nuestros Procesos
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-<!-- Boton para regresar -->
-<ion-button routerLink='/home'> 
-<ion-icon name="home-outline"></ion-icon> 
-Regreso a Home
-</ion-button>
 
 <!-- ion-cards con el proceso -->
   <ion-grid>
