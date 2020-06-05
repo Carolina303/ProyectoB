@@ -17,4 +17,6 @@ import { ContactoPage } from './contacto.page';
   ],
   declarations: [ContactoPage]
 })
-export class ContactoPageModule {}
+export class ContactoPageModule {
+  
+}

@@ -1,0 +1,29 @@
+ion-slide{
+    display: block;
+    background-color: (#006545);
+  }
+  
+.slide-img-padding{
+  padding: 10px;
+}
+
+h4{
+  font-weight: lighter;
+}
+
+h5{
+  font-weight: lighter;
+  margin: 10px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+ion-slides{
+  --bullet-background: grey;
+  --bullet-background-active: #2DD238;
+}
+
+ion-card-content{
+  font-weight: lighter;
+}
