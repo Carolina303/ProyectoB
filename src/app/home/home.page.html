@@ -1,20 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <img src="../../assets/gran1.jpg"/>
+    <ion-card-header>
+      <ion-card-title>Sobre nosotros</ion-card-title>
+    </ion-card-header>
+  <ion-card-content>
+    Somos la solucion mas organica de consumir alimentos traidos de la tierra,
+    todo lo hacemos con respeto hacia la naturaleza y el consumidor
+  </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button shape ="block" routerLink = "/productos">Nuestros Productos</ion-button>
+
+  <ion-button shape ="block" routerLink = "/procesos">Nuestros Procesos</ion-button>
+
+  <ion-button shape ="block" routerLink = "/preguntas">Preguntas Frecuentes</ion-button>
+
+  <ion-button shape ="block" routerLink = "/contacto">Contacto</ion-button>
+  
+  <video controls>
+    <source src="foo.ogg" type="video/ogg">
+    <source src="../../assets/Videoapp.mp4" type="video/mp4">
+    Tu navegador no implementa el elemento <code>video</code>.
+  </video>
+  
 </ion-content>
+
