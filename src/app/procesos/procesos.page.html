@@ -12,19 +12,19 @@
 </ion-header>
 
 <ion-content>
-
-<!-- ion-cards con el proceso -->
-  <ion-grid>
-  <ion-row size = 6>
-    <ion-col *ngFor="let item of items">
-      <ion-card >
-        <ion-card-content>
-          <ion-title>{{item.ID}}</ion-title>
-          <ion-img src="{{item.Source}}"></ion-img>
-          <ion-label>{{item.Text}}</ion-label>
-        </ion-card-content>
-      </ion-card>
-    </ion-col>
-  </ion-row>
-</ion-grid>
+  <ion-card>
+    <ion-slides pager="true">
+      <ion-slide *ngFor="let item of items">
+        <div>
+          <h4 [innerHTML]="item.ID"></h4>
+        </div>
+        <div class="slide-img-padding">
+          <img [src]="item.Source">
+        </div>
+        <div>
+          <h5 [innerHTML]="item.Text"></h5>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
 </ion-content>

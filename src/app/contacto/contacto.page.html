@@ -1,9 +1,24 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Contacto</ion-title>
+    <ion-buttons slot="start">
+      <ion-button routerLink='/home'>
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">
+      Contacto
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-text>
+    <p>Juan Pérez Lopéz</p>
+    <p>Av. Universidad s/n. Ciudad Universitaria San Nicolás de los Garza, Nuevo León, C.P. 66451</p>
+    <p>Tel. 81 83 29 40 30</p>
+  </ion-text>
 </ion-content>
+
+
+  <div id="mapa"></div> 
+

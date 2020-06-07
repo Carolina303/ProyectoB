@@ -1,27 +1,28 @@
 ion-slide{
     display: block;
+    background-color: (#006545);
   }
   
-  .slide-img-padding{
-    padding: 30px;
-  }
-  
-  h5{
-    font-weight: lighter;
-    margin-bottom: 30px;
-  }
+.slide-img-padding{
+  padding: 10px;
+}
 
-  h4{
-    font-weight: lighter;
-    margin-bottom: 0px;
-  }
-  
-  ion-slides{
-    --bullet-background: grey;
-    --bullet-background-active: #2DD238;
-  }
-    
+h4{
+  font-weight: lighter;
+}
 
-  ion-card-content{
-   font-weight: lighter;
-  }
+h5{
+  font-weight: lighter;
+  margin: 10px;
+  text-align: center;
+  color: black;
+}
+
+ion-slides{
+  --bullet-background: grey;
+  --bullet-background-active: #2DD238;
+}
+
+ion-card-content{
+  font-weight: lighter;
+}
