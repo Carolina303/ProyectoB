@@ -15,12 +15,12 @@ export class ProcesosPage implements OnInit {
     },
     {
       ID: "2° Labrado",
-      Text: "Se repite el proceso de labrado a la tierra, arándola, limpiándola y dejándola lista para así pasar a la siembra de nuestros productos a cultivar.",
+      Text: "Se repite el proceso de labrado a la tierra: arándola, limpiándola y dejándola lista para así pasar a la siembra de nuestros productos a cultivar.",
       Source: "./assets/2segundolabrado.jpg"
     },
     {
       ID: "Siembra",
-      Text: "Para sembrar en nuestros campos, usan el sistema de siembra a hoyo; para tener un mejor control a la hora de abonar, así como el control de plagas.",
+      Text: "Para sembrar en nuestros campos, usamos el sistema de siembra a hoyo; para tener un mejor control a la hora de abonar, así como el control de plagas.",
       Source: "./assets/3siembra.jpg"
     },
     {
@@ -30,17 +30,17 @@ export class ProcesosPage implements OnInit {
     },
     {
       ID: "Cosecha",
-      Text: "Usualmente usamos maquinaria media para la recoleccion de nuestras cosechas; pero en algunos casos como los frutos, preferimos hacerlo a mano para mayor eficacia.",
+      Text: "Usualmente usamos maquinaria de tamaño medio para la recolección de nuestras cosechas; pero en algunos casos como los frutos, preferimos hacerlo a mano para mayor eficacia.",
       Source: "./assets/5Cosecha.jpg"
     },
     {
       ID: "Limpieza",
-      Text: "Esta parte del proceso sude¿cede directamente despues de la cosecha de los cultivos, donde separamos, limpiamos y preparamos para su posterior empaquetado para preservar mejor los productos.",
+      Text: "Esta parte del proceso sucede directamente despues de la cosecha de los cultivos; donde separamos, limpiamos y preparamos para su posterior empaquetado para preservar mejor los productos.",
       Source: "./assets/tratamiento.jpg"
     },
     {
       ID: "Empaquetado",
-      Text: "Al final de nuestros procesos, tenemos 2 destinos para nuestros productos: 1) Almacenaje, para transpotar despues a otros sitios; 2) Venta, las llevamos al mercado local para vender y darnos a conocer en un área de comercio concurrido.",
+      Text: "Al final de nuestros procesos, tenemos 2 destinos para nuestros productos: 'Almacenaje', para transpotar despues a otros sitios; y 'Venta', las llevamos al mercado local para vender y darnos a conocer en un área de comercio concurrido.",
       Source: "./assets/7Empaquetado.jpg"
     }
   ];
